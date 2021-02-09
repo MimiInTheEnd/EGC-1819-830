@@ -30,5 +30,5 @@ script:
 - coverage xml
 - python-codacy-coverage -r coverage.xml
 branches: 
-only:
-- master
+    only:
+    - master
