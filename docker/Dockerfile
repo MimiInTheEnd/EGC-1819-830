@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/MimiInTheEnd/EGC-1819-830.git -b desarrollo .
+RUN git clone https://github.com/MimiInTheEnd/EGC-1819-830.git .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
